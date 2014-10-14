@@ -1,0 +1,20 @@
+﻿Build started 10/14/2014 2:56:41 PM.
+     1>Project "K:\Users\Russ\Documents\Visual Studio 2013\Projects\md5Compressor\md5Compressor\md5Compressor.vcxproj" on node 2 (Build target(s)).
+     1>K:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (md5Compressor.vcxproj, splitCompressor.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         K:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\splitComp.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         K:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\splitComp.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BinaryFile.cpp Compressor.cpp splitCompressor.cpp
+         BinaryFile.cpp
+     1>BinaryFile.cpp(10): warning C4244: '=' : conversion from 'std::streamoff' to 'size_t', possible loss of data
+         Compressor.cpp
+         splitCompressor.cpp
+       ResourceCompile:
+         K:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\res.res" res.rc 
+     1>res.rc(3): fatal error RC1015: cannot open include file 'resource.h'.
+         
+     1>Done Building Project "K:\Users\Russ\Documents\Visual Studio 2013\Projects\md5Compressor\md5Compressor\md5Compressor.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.22
